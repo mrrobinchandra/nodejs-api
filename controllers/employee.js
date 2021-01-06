@@ -1,4 +1,4 @@
-flet express=require('express');
+let express=require('express');
 const router=express.Router();
 const jwt = require('jsonwebtoken');
 const employee = require('../model/employeeModel')
