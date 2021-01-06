@@ -6,7 +6,6 @@ const hash=require('../utils/hash')
 
 
 
-
 router.post('/add',async (req, res) => {
   console.log(req.body)
 
